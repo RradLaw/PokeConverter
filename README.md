@@ -2,6 +2,8 @@
 
 Convert Pokémon names into their number in the national dex.
 
+Site available at: https://rradlaw.github.io/PokeConverter/index.html
+
 ## Future work
 * Custom formatting
 
