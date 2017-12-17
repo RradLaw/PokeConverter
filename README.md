@@ -1,6 +1,6 @@
-# Pokemon Name-Number Converter
+# Pokémon Name-Number Converter
 
-Convert Pokemon names into their number in the national dex.
+Convert Pokémon names into their number in the national dex.
 
 ## Future work
 * Custom formatting
