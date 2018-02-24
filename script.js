@@ -9,7 +9,7 @@ function nameToNumber() {
             arr2.push(pokemonArray.indexOf(arr[i]));
         }
     }
-    arr2.sort();
+    arr2.sort(sortNumber);
     for (let i = 0; i < arr.length; i++) {
         if (pokemonArray.indexOf(arr[i]) > 0) {
             str += arr2[i] + (doubleOutput ? ' ' + arr[i] : '') + ',';
@@ -29,4 +29,8 @@ function numberToName() {
         }
     }
     document.getElementById('output').value = str;
+}
+
+function sortNumber(a, b) {
+    return a - b;
 }
